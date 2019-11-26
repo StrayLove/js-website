@@ -1,0 +1,45 @@
+.container {
+	border: 5px solid #ffcc5c;
+	display: flex;
+	flex-direction: row;
+	
+}
+
+.logout {
+	background-color: #345d76;
+}
+
+
+
+/*
+align-items and justify-content: center and lets say there only one thing in the
+Nav area this whill make that one item align into the center of the flex box
+*/
+
+/*align-self is fun*/
+/*
+Justify content
+Are some flex to play around with to practice
+flex-start
+flex-end
+center
+space-around
+space-between
+space-evenly
+*/
+
+/*
+.container give flex property of 1
+flex: 1
+can do flex: 2
+flex-grow
+flex-shrink
+flex-basis
+*/
+
+/*
+if you were to add just the target class like .search it woukd be less
+Specific than .container > .search and wouldnt do anything. Since its .container > .search
+Then its more specific 
+Lol
+*/
